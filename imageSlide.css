@@ -1,0 +1,47 @@
+.maindiv
+{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    transform: translate(-30%,-16.4%);
+    background-image: url('IMG/https___hypebeast.com_image_2018_08_supreme-fall-winter-2018-first-drop-day-3.jpg');
+    background-size: 110% 110%;
+    animation: slider 9s infinite linear;
+    display: block;
+}
+
+
+
+@keyframes slider
+{
+    0%
+    {
+        background-image: url('IMG/bape1.jpg');
+        display: block;
+    }
+    35%
+    {
+        background-image: url('IMG/nike-wmns-air-jordan-1-retro-high-premium-snakeskin-ah7389-014-mood-1.jpg');
+        display: block;
+
+    }
+    75%
+    {
+        background-image: url('IMG/offwhite\ 12.37.23\ PM.jpg');
+        display: block;
+    }
+    
+}
+
+.space
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.center
+{
+    text-align:center;
+}
